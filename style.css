@@ -148,7 +148,7 @@ body {
     margin-bottom: 130px;
 }
 
-.positive{
+.positive {
     position: relative;
 }
 
@@ -169,17 +169,75 @@ body {
     margin-bottom: 25px;
 }
 
-.positive-text{
+.positive-text {
     width: 25%;
 }
 
-.watch img{
+.watch img {
     transform: translatey(3px);
 }
 
-.positive-text{
+.positive-text {
     position: absolute;
     top: 60px;
     left: 450px;
-    
+
+}
+
+/* footer */
+
+footer {
+    background: #151414;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social h1 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.social-dec {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.email,
+.phn {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-right: 15px;
+}
+
+.social ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.sub {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input[type="email"] {
+    margin: 30px 0 15px;
+    display: block;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    background: var(--Dark-01, #151414);
+    border-radius: 8px;
+    border: 1px solid #FFF;
 }

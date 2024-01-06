@@ -71,7 +71,7 @@ body {
     gap: 100px;
 }
 
-.fail-text{
+.fail-text {
     width: 25%;
     margin-top: 200px;
 }
@@ -82,22 +82,58 @@ body {
     font-weight: 700;
 }
 
-.fail-text p{
+.fail-text p {
     margin: 25px 0 15px;
 }
 
-.fail-text p, .fail-text ul li{
+.fail-text p,
+.fail-text ul li {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
 
-.fail-text ul li{
+.fail-text ul li {
     margin-bottom: 8px;
 }
 
-.fail-text ul li i{
+.fail-text ul li i {
     color: #16D887;
     font-size: 18px;
+}
+
+/* plan */
+
+.plan{
+    margin-top: 150px;
+}
+
+.plan>h1 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 50px 0 130px;
+    text-align: center;
+}
+
+.info h3 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0 15px;
+}
+
+.info p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }

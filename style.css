@@ -19,7 +19,7 @@ body {
 
 /* head1 */
 
-.head1 {
+.banner {
     background-image: url('images/banner/banner2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,20 +28,20 @@ body {
     justify-content: flex-end;
 }
 
-.head1>div {
+.banner>div {
     padding: 215px 230px 165px 0;
     text-align: right;
     width: 30%;
 }
 
-.head1 div h1 {
+.banner div h1 {
     color: #151414;
     text-align: right;
     font-size: 65px;
     font-weight: 700;
 }
 
-.head1 div p {
+.banner div p {
     color: #444343;
     text-align: right;
     font-size: 16px;
@@ -50,7 +50,7 @@ body {
     margin: 25px 0 30px;
 }
 
-.head1 div button {
+.banner div button {
     color: #FFF;
     text-align: right;
     font-size: 20px;
@@ -59,4 +59,45 @@ body {
     padding: 20px 20px;
     border-radius: 5px;
     background: #F15B22;
+}
+
+/* failures */
+
+.failures {
+    margin: 130px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.fail-text{
+    width: 25%;
+    margin-top: 200px;
+}
+
+.fail-text h2 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fail-text p{
+    margin: 25px 0 15px;
+}
+
+.fail-text p, .fail-text ul li{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.fail-text ul li{
+    margin-bottom: 8px;
+}
+
+.fail-text ul li i{
+    color: #16D887;
+    font-size: 18px;
 }
